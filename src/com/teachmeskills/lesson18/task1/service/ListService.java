@@ -34,7 +34,7 @@ public class ListService {
     }
 
     public static void sizeStream(List<Integer> list) {
-        System.out.println("List - sizeStream -> " + list.stream().count());
+        System.out.println("List - sizeStream -> " + (long) list.size());
     }
 
     public static void averageSum(List<Integer> list) {
